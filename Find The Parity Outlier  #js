@@ -18,3 +18,4 @@ function findOutlier(integers){
   else{
     return evens[0]
   }
+}
