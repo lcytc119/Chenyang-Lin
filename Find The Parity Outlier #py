@@ -1,0 +1,14 @@
+def find_outlier(integers):
+    if integers[0] % 2 == 1 and integers[1] % 2 == 1:
+        for n in integer[2::]:
+            if n % 2 == 0:
+                return n
+    elif integers[0] %2 == 0 and  integers[1] % 2 == 0:
+        for n in integer[2::]:
+            if n % 2 == 1:
+                return n
+    else:
+        if integer[0] % 2 == integer[2] % 2
+            return integer[1]
+        else:
+            return integer[0]
